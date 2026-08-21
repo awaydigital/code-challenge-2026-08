@@ -1,0 +1,12 @@
+{
+  "name": "siteline-intake",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "intake": "node src/intake.mjs",
+    "build3d": "blender --background --python tools/blender/build3d.py --"
+  }
+}

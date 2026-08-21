@@ -1,0 +1,20 @@
+{
+  "code": "KES38",
+  "name": "Kestrel 38",
+  "builder": "Bellbrook Homes",
+  "standard": "siteline-2026-08-001",
+  "demoNote": "Representative sample data invented for this exercise. Not a real builder, home design, or client.",
+  "facades": ["Coastal", "Ridgeline"],
+  "rooms": [
+    { "level": "L1", "name": "Kitchen", "seq": "01", "variants": ["Base", "Butlers"], "facadeDriven": false },
+    { "level": "L1", "name": "Living", "seq": "01", "variants": ["Base"], "facadeDriven": true },
+    { "level": "L1", "name": "Alfresco", "seq": "01", "variants": ["Base", "Extended"], "facadeDriven": true },
+    { "level": "L1", "name": "Garage", "seq": "01", "variants": ["Base"], "facadeDriven": true },
+    { "level": "L1", "name": "Laundry", "seq": "01", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L1", "name": "Pantry", "seq": "01", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L2", "name": "Bed", "seq": "02", "variants": ["Base", "ToFront"], "facadeDriven": false },
+    { "level": "L2", "name": "Bed", "seq": "03", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L2", "name": "WIR", "seq": "01", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L2", "name": "Balcony", "seq": "01", "variants": ["Base"], "facadeDriven": true }
+  ]
+}

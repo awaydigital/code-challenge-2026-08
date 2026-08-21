@@ -1,0 +1,13 @@
+{
+  "code": "MAR21",
+  "name": "Marlowe 21",
+  "builder": "Bellbrook Homes",
+  "standard": "siteline-2026-08-001",
+  "demoNote": "Representative sample data invented for this exercise. Not a real builder, home design, or client.",
+  "rooms": [
+    { "level": "L1", "name": "Kitchen", "seq": "01", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L1", "name": "Home Theatre", "seq": "01", "variants": ["Base"], "facadeDriven": false },
+    { "level": "L1", "name": "Living", "seq": "01", "facadeDriven": true },
+    { "level": "L1", "name": "Kitchen", "seq": "01", "variants": ["Base"], "facadeDriven": false }
+  ]
+}

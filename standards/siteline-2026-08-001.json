@@ -1,0 +1,38 @@
+{
+  "id": "siteline-2026-08-001",
+  "demoNote": "Representative sample invented for this exercise. This is not the production standard; values and rules are illustrative only.",
+  "naming": {
+    "template": "{project}_{level}_{room}-{seq}_{variant}_{facade}",
+    "separator": "_",
+    "reserved": {
+      "anyFacade": "Any"
+    },
+    "roomNamePattern": "^[A-Za-z][A-Za-z0-9]*$"
+  },
+  "stages": [
+    {
+      "id": "cad",
+      "folder": "01_CAD",
+      "extension": ".dxf"
+    },
+    {
+      "id": "model3d",
+      "folder": "02_Blender",
+      "output": "{project}.blend",
+      "requires": "cad"
+    }
+  ],
+  "layers": {
+    "outline": "OUTLINE",
+    "openings": "OPENINGS"
+  },
+  "dimensions": {
+    "wallHeightMm": 2450,
+    "wallThicknessMm": 110,
+    "storeyHeightMm": 2850,
+    "slabThicknessMm": 200,
+    "doorHeightMm": 2100,
+    "windowSillMm": 900,
+    "windowHeadMm": 2100
+  }
+}
